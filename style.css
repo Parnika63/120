@@ -1,0 +1,65 @@
+
+
+body{
+    font-family: 'Amatic SC', cursive;
+}
+
+
+#score{
+    margin-left: 10px;
+    font-size: 20px;}
+#timer{
+    float: right;
+    margin-right:10px;
+    font-size: 20px;
+
+}
+body{
+    background-color: #becfff;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    color: #c77dff;
+    margin-left: 80px;
+
+}
+#show_sketch{
+    float: right;
+}
+p{
+
+    font-size: 25px;
+    color: #ffffff;
+}
+#sketch_to_be_drawn{
+    
+    font-size: 25px;
+    color: #ffffff;
+}
+
+canvas 
+  {
+    border:2px solid white;
+    border-radius:20px;
+    margin-top:135px;
+    box-shadow:5px 5px 5px rgb(175, 175, 175);
+    box-shadow: 1px 1px 38px #f5f5f5;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+    from {box-shadow: 1px 1px 38px rgb(197, 181, 255);}
+    to {box-shadow: 1px 1px 38px rgb(243, 233, 255);}
+  
+  }
+  
+  
+  p, span
+  {
+      padding-top:10px;
+      font-family: 'Amatic SC', cursive;
+      font-size:25px;
+  }
